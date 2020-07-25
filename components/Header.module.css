@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nicodemos {
+    color: #ff2521;
+    position: absolute;
+    left: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    float: left;
+    margin: 0px 30px;
+}
+
+.header ul a {
+    color: #cdbcbc;
+    text-decoration: none;
+}
+
+.header ul a:hover, .active {
+    color: #ff2521 !important;
+}

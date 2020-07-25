@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-bold";
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+body {
+    background-color: #2e2836;
+    color: #cdbcbc;
+    font-family: Gilroy-bold;
+    height: 100vh;
+    font-size: 20px;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}

@@ -1,8 +1,9 @@
-import Head from 'next/head'
+import Header from '../components/header'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
+      <Header />
 
     </div>
   )
