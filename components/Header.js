@@ -1,5 +1,5 @@
-import styles from './Header.module.css';
-import Link from './Link';
+import styles from './Header.module.css'
+import Link from './Link'
 
 function Header() {
     return <div className={styles.header}>
