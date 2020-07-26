@@ -1,8 +1,10 @@
-// import Header from '../components/header'
+import dynamic from "next/dynamic";
+
+const Header = dynamic(import("../components/Header"));
 
 function Works() {
     return <div>
-        {/* <Header /> */}
+        <Header />
         works
     </div>
 }
