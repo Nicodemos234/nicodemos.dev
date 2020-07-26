@@ -1,9 +1,11 @@
 // import Header from '../components/header'
+import dynamic from "next/dynamic";
 
+const Header = dynamic(import("../components/Header"));
 export default function Home() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
 
     </div>
   )
