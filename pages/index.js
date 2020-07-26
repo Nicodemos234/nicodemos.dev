@@ -3,9 +3,37 @@ import dynamic from "next/dynamic";
 const Header = dynamic(import("../components/Header"));
 export default function Home() {
   return (
-    <div>
+    <div className="container-main">
       <Header />
-
+        <div className="nico-flex">
+          <div>
+            <h1>Welcome</h1>
+            <p>Hi, my name is Nicodemos, I have 18 years old, I'm programmer, video editor and passionate about technology.</p>
+            <div className="socials">
+              <a target="_blank" href="https://www.twitch.tv/nicodemos234">
+                <img className="socialbtn" src="/assets/images/socials/twitch.png" />
+              </a>
+              <a target="_blank" href="https://www.youtube.com/nicodemos234">
+                <img className="socialbtn" src="/assets/images/socials/youtube.png" />
+              </a>
+              <a target="_blank" href="https://twitter.com/nicodemos234">
+                <img className="socialbtn" src="/assets/images/socials/twitter.png" />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/nicodemos234/">
+                <img className="socialbtn" src="/assets/images/socials/instagram.png" />
+              </a>
+              <a target="_blank" href="https://github.com/nicodemos234">
+                <img className="socialbtn" src="/assets/images/socials/github.png" />
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/nicodemossouza/">
+                <img className="socialbtn" src="/assets/images/socials/linkedin.png" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <img src="/assets/images/nico.png" alt="Nico image" />
+          </div>
+        </div>
     </div>
   )
 }
