@@ -28,7 +28,7 @@ export default function MyApp({ Component, pageProps, router }) {
           }
           .page-transition-exit-active {
             opacity: 0;
-            transition: opacity 0.2;
+            transition: opacity 0.2s;
             height: inherit;
           }
           .page-transition-enter-done {
