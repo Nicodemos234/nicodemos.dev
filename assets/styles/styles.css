@@ -57,6 +57,14 @@ h1 {
     min-height: 700px;
 }
 
+#main {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    height: 100%;
+    min-height: 700px;
+}
+
 .socialbtn {
     max-width: 40px;
 }

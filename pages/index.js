@@ -9,7 +9,6 @@ export default function Home() {
         <title>Nicodemos.dev</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Header />
       <div className="nico-flex">
         <div className="nico-index">
           <h1>Welcome</h1>
