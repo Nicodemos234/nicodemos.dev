@@ -1,8 +1,8 @@
-import Header from '../components/header'
+// import Header from '../components/header'
 
 function Works() {
     return <div>
-        <Header />
+        {/* <Header /> */}
         works
     </div>
 }

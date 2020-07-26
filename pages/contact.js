@@ -1,8 +1,8 @@
-import Header from '../components/header'
+// import Header from '../components/header'
 
 function Contact() {
     return <div>
-        <Contact />
+        {/* <Header /> */}
         works
     </div>
 }
