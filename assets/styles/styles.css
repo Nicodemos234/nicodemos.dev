@@ -74,9 +74,22 @@ h1 {
 @media (max-width: 768px) {
     .nico-flex {
         flex-flow: column-reverse;
-        padding: 0px 40px;
     }
     .nico-flex div img {
         width: 100%;
+    }
+    .nico-flex {
+        width: 100%;
+    }
+
+    .nico-flex .nico-index {
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .nico-flex .socials {
+        justify-content: center;
+    }
+    .nico-index h1 {
+        margin-top: 20px;
     }
 }

@@ -1,0 +1,58 @@
+.form input, .form textarea {
+    border: none;
+    display: block;
+    resize: none;
+    margin: 10px 0px 30px 00px;
+    background-color: #e2dfdf;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;     
+    width: 100%;
+    font-family: Gilroy-bold;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+}
+
+.form textarea {
+    height: 250px;
+}
+
+.form form div {
+    width: 450px;
+    max-width: 100%;
+}
+
+.form button {
+    background-color: #ff2521;
+    color: #e2dfdf;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: Gilroy-bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease-in .1s;
+}
+
+.form button:hover {
+    filter: brightness(0.7);
+}
+
+.form button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .form form div, .form form, .form, .nico-flex{
+        width: 100%;
+    }
+    .form {
+        width: 90%;
+    }
+
+}
