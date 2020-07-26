@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel'
 class CarouselC extends React.Component {
 
     render() {
-        return <Carousel>
+        return <Carousel autoPlay showThumbs={false}>
             {/* <div className={styles.left}></div> */}
             <div className={styles.item}>
                 <div>
