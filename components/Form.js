@@ -5,15 +5,15 @@ function Form() {
         <form>
             <div>
                 <label htmlFor="name">Name</label>
-                <input id="name"></input>
+                <input type="text" required id="name"></input>
             </div>
             <div>
                 <label htmlFor="email">Email</label>
-                <input id="email"></input>
+                <input required type="email" id="email"></input>
             </div>
             <div>
                 <label htmlFor="message">Message</label>
-                <textarea id="message"></textarea>
+                <textarea required id="message"></textarea>
             </div>
             <button>Send</button>
         </form>

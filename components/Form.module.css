@@ -11,6 +11,7 @@
     box-sizing: border-box;     
     width: 100%;
     font-family: Gilroy-bold;
+    color: #2e2836;
 }
 
 .form input:focus, .form textarea:focus {
