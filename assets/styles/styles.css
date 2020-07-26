@@ -127,3 +127,17 @@ a:hover {
         background-size: contain;
     }
 }
+
+
+.carousel-root .control-dots, .carousel-status{
+    display: none !important;
+}
+
+.carousel .slide {
+    background: none !important;
+}
+
+
+.carousel.carousel-slider .control-arrow:hover {
+    background-color: transparent !important;
+}

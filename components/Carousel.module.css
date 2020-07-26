@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .left {
@@ -11,18 +12,30 @@
     width: 20px;
     height: 32px;
     cursor: pointer;
+    z-index: 2;
 }
 
-.content {
+.cWrapper {
+    overflow: hidden;
     width: 100%;
 }
 
-.item {
+.content {
     display: flex;
+    width: 2500px;
+    justify-content: space-between;
+}
+
+.item {
     align-items: center;
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    display: flex;
+}
+
+.itemSelected {
+    display: flex;
 }
 
 .item div {
@@ -35,6 +48,7 @@
     width: 20px;
     height: 32px;
     cursor: pointer;
+    z-index: 2;
 }
 
 @media (max-width: 864px) {
