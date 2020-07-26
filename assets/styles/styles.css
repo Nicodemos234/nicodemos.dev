@@ -68,3 +68,15 @@ h1 {
 .socials a {
     margin-right: 15px;
 }
+
+
+/* Mobile Index */
+@media (max-width: 768px) {
+    .nico-flex {
+        flex-flow: column-reverse;
+        padding: 0px 40px;
+    }
+    .nico-flex div img {
+        width: 100%;
+    }
+}
