@@ -54,6 +54,7 @@ h1 {
     width: 100%;
     flex-flow: column;
     height: 100%;
+    min-height: 656px;
 }
 
 .socialbtn {
@@ -68,6 +69,17 @@ h1 {
 
 .socials a {
     margin-right: 15px;
+}
+
+a {
+    color: #ff2521;
+    cursor: pointer;
+    transition: all ease-in .3;
+    text-decoration: none;
+}
+
+a:hover {
+    filter: brightness(.7);
 }
 
 /* Mobile */

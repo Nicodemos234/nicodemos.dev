@@ -1,7 +1,10 @@
 import dynamic from "next/dynamic"
 import Head from 'next/head'
 
-const Header = dynamic(import("../components/Header"));
+
+
+const Header = dynamic(import("../components/Header"))
+const Carousel = dynamic(import("../components/Carousel"))
 
 function Works() {
     return <div className="container-main">
@@ -11,7 +14,7 @@ function Works() {
         </Head>
         <Header />
         <div className="nico-flex">
-aa
+            <Carousel />
         </div>
     </div>
 }
