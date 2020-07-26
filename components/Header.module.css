@@ -38,6 +38,7 @@
     .header {
         display: flex;
         flex-flow: column;
+        margin-bottom: 40px;
     }
     .header nav {
         margin-top: 10px;

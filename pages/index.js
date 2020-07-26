@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <img src="/assets/images/nico.png" alt="Nico image" />
+          <img className="nicoimage" src="/assets/images/nico.png" alt="Nico image" />
         </div>
       </div>
     </div>

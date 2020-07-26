@@ -2,7 +2,7 @@ import styles from './Header.module.css'
 import Link from './Link'
 
 function Header() {
-    return <div className={styles.header}>
+    return <header className={styles.header}>
         <div className={styles.nicodemos}>
             NICODEMOS.DEV
         </div>
@@ -13,7 +13,7 @@ function Header() {
                 <li><Link activeClassName={styles.active} href="/contact"><a>Contact</a></Link></li>
             </ul>
         </nav>
-    </div>
+    </header>
 }
 
 export default Header

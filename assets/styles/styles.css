@@ -65,23 +65,24 @@ h1 {
     margin-top: 20px;
     align-items: center;
 }
+
 .socials a {
     margin-right: 15px;
 }
 
+/* Mobile */
 
-/* Mobile Index */
 @media (max-width: 768px) {
     .nico-flex {
+        display: flex;
         flex-flow: column-reverse;
+        padding: 0px;
+        width: 100%;
+        padding-bottom: 20px;
     }
     .nico-flex div img {
         width: 100%;
     }
-    .nico-flex {
-        width: 100%;
-    }
-
     .nico-flex .nico-index {
         padding: 0px 20px;
         text-align: center;
@@ -91,5 +92,26 @@ h1 {
     }
     .nico-index h1 {
         margin-top: 20px;
+    }
+    #__next, .container-main {
+        display: block !important;
+    }
+    #__next, .container-main, .nico-flex, body {
+        height: unset;
+    }
+    .nicoimage {
+        max-width: 300px;
+    }
+}
+
+@media (min-height: 657px) {
+    #__next {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1080px) {
+    body {
+        background-size: contain;
     }
 }
