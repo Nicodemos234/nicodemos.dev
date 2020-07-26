@@ -141,3 +141,7 @@ a:hover {
 .carousel.carousel-slider .control-arrow:hover {
     background-color: transparent !important;
 }
+
+.carousel-root {
+    max-width: 100%;
+}
