@@ -5,7 +5,7 @@
     margin: 10px 0px 30px 00px;
     background-color: #e2dfdf;
     border-radius: 10px;
-    padding: 20px;
+    padding: 14px 20px;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;     
@@ -23,7 +23,7 @@
 }
 
 .form form div {
-    width: 450px;
+    width: 400px;
     max-width: 100%;
 }
 
