@@ -10,7 +10,7 @@ export default function Home() {
       <div className="nico-flex">
         <div className="nico-index">
           <h1>Welcome</h1>
-          <p>Hi, my name is Nicodemos, I have 18 years old, I'm programmer, video editor and passionate about technology.</p>
+          <p>Hi, my name is Nicodemos, I'm a programmer, video editor and passionate about technology.</p>
           <div className="socials">
             <a target="_blank" href="https://www.twitch.tv/nicodemos234">
               <img className="socialbtn" src="/assets/images/socials/twitch.png" />
