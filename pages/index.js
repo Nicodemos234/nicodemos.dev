@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic"
 import Head from 'next/head'
 
-const Header = dynamic(import("../components/Header"));
 export default function Home() {
   return (
     <div className="container-main">

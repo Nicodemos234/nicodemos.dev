@@ -5,6 +5,7 @@ import { PageTransition } from 'next-page-transitions'
 import dynamic from "next/dynamic"
 const Header = dynamic(import("../components/Header"))
 
+
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
   return <div id="main">
