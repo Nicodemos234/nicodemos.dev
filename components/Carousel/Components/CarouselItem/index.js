@@ -1,15 +1,15 @@
 import { Carousel } from "react-responsive-carousel"
 
-function CarouselItem( props ) {
-    return <div className={props.className}>
+function CarouselItem( {className, href, desc, pname} ) {
+    return <div className={className}>
                 <div>
-                    <a target="_blank" href={props.href}><img src={props.src} /></a>
+                    <a target="_blank" href={href}><img src={src} /></a>
                 </div>
                 <div>
-                    {props.desc}
+                    {desc}
                 </div>
                 <div>
-                    <a target="_blank" href={props.href}>{ props.pname }</a>
+                    <a target="_blank" href={href}>{ pname }</a>
                 </div>
             </div>
 }
