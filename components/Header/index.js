@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import Link from './Link'
+import Link from '../Link'
 
 function Header() {
     return <header className={styles.header}>
