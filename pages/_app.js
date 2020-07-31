@@ -8,7 +8,7 @@ const Header = dynamic(import("../components/Header"))
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
-  return <div id="main">
+  return <>
     <Header />
     <PageTransition timeout={300} classNames="page-transition">
       <Component {...pageProps} key={router.route} />
@@ -16,25 +16,25 @@ export default function MyApp({ Component, pageProps, router }) {
     <style jsx global>{`
           .page-transition-enter {
             opacity: 0;
-            height: inherit;
+            height: 90vh;
           }
           .page-transition-enter-active {
             opacity: 1;
             transition: opacity 0.2s;
-            height: inherit;
+            height: 90vh;
           }
           .page-transition-exit {
             opacity: 1;
-            height: inherit;
+            height: 90vh;
           }
           .page-transition-exit-active {
             opacity: 0;
             transition: opacity 0.2s;
-            height: inherit;
+            height: 90vh;
           }
           .page-transition-enter-done {
-            height: inherit;
+            height: 90vh;
           }
         `}</style>
-  </div>
+  </>
 }
