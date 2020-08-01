@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel"
 
-function CarouselItem( {className, href, desc, pname} ) {
+function CarouselItem( {className, href, desc, pname, src} ) {
     return <div className={className}>
                 <div>
                     <a target="_blank" href={href}><img src={src} /></a>
