@@ -12,7 +12,7 @@ body {
     background-color: #2e2836;
     color: #cdbcbc;
     font-family: Gilroy-bold;
-    height: 100vh;
+    height: 100%;
     font-size: 20px;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
