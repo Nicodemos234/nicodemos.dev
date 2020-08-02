@@ -1,7 +1,7 @@
 function CustomError( { statusCode }) {
     return (
         <div className="container-main ever-on-center">
-            Error | {statusCode}
+            Error | 404
         </div>
     )
 }
