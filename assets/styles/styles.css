@@ -145,3 +145,10 @@ a:hover {
 .carousel-root {
     max-width: 100%;
 }
+
+.ever-on-center {
+display: flex !important;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
