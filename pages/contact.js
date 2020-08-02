@@ -4,6 +4,7 @@ import Head from 'next/head'
 const Form = dynamic(import('../components/Form'));
 
 function Contact() {
+
     return <div className="container-main">
         <Head>
             <title>Contact - Nicodemos.dev</title>

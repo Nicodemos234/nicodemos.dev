@@ -6,9 +6,11 @@
     background-color: #e2dfdf;
     border-radius: 10px;
     padding: 14px 20px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;     
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
     width: 100%;
     font-family: Gilroy-bold;
     color: #2e2836;
@@ -49,10 +51,20 @@
 }
 
 @media (max-width: 768px) {
-    .form form div, .form form, .form, .nico-flex{
+    .form form div, .form form, .form, .nico-flex {
         width: 100%;
     }
     .form {
         width: 90%;
     }
+}
+
+.error {
+    background-color: #ff2521;
+    width: 385px;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #e2dfdf;
 }
