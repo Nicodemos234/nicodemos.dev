@@ -68,3 +68,9 @@
     margin-bottom: 20px;
     color: #e2dfdf;
 }
+
+@media (max-width: 768px) {
+    .error {
+        width: 100% !important;
+    }
+}
