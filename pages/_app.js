@@ -1,6 +1,6 @@
 import '../assets/styles/reset.css'
 import '../assets/styles/styles.css'
-import 'nprogress/nprogress.css'
+import '../assets/styles/nprogress.css'
 import Router from 'next/router'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { PageTransition } from 'next-page-transitions'
