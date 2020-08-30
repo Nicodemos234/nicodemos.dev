@@ -19,7 +19,7 @@ export default function Home() {
             <SocialButton href="https://www.youtube.com/nicodemos234"
               src="/assets/images/socials/youtube.png"
               alt="Youtube logo" />
-            <SocialButton href="https://www.instagram.com/nicodemos234/"
+            <SocialButton href="https://www.instagram.com/nicodemos_twitch"
               src="/assets/images/socials/instagram.png"
               alt="Instagram logo" />
             <SocialButton href="https://github.com/nicodemos234"
