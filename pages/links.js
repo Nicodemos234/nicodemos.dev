@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import LinkCard from '../components/LinkCard'
 
 
 function Links() {
@@ -8,8 +9,9 @@ function Links() {
             <title>Links - Nicodemos.dev</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <div className="nico-flex" >
-
+        <div>
+            <LinkCard text="TWITCH - ONDE FAÇO MINHAS LIVES" href="https://www.twitch.tv/nicodemos234" />
+            <LinkCard text="YOUTUBE - ONDE POSTO VÍDEOS AS VEZES" href="https://www.youtube.com/nicodemos234" />
         </div>
     </div>
 }

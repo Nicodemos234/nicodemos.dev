@@ -1,0 +1,18 @@
+.linkcard {
+    background-color: #ff2521;
+    width: 450px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #e2dfdf;
+    transition: all ease .2s;
+    display: block;
+    margin: 20px 0px;
+}
+
+@media (max-width: 836px) {
+    .linkcard {
+        width: 92% !important;
+    }
+}
