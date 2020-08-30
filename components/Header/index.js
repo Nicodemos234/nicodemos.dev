@@ -10,7 +10,7 @@ function Header() {
             <ul>
                 <li><Link activeClassName={styles.active} href="/"><a>Home</a></Link></li>
                 <li><Link activeClassName={styles.active} href="/works"><a>Works</a></Link></li>
-                <li><Link activeClassName={styles.active} href="/contact"><a>Contact</a></Link></li>
+                <li><Link activeClassName={styles.active} href="/links"><a>Links</a></Link></li>
             </ul>
         </nav>
     </header>
