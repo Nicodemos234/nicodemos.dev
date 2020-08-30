@@ -10,9 +10,9 @@ function CarouselCom() {
         <CarouselItem className={styles.item} href="https://www.siasp.com.br/"
             src="/assets/images/carousel/siasp.png"
             desc="Internship at Siasp" pname="SIASP" />
-        <CarouselItem className={styles.item} href="https://www.pechinchou.com.br"
+        <CarouselItem className={styles.item} href="https://play.google.com/store/apps/details?id=br.com.pechinchou.pechinchou"
             src="/assets/images/carousel/pechinchaapp.png"
-            desc="App developed using Flutter" pname="Pechinchou App (coming soon)" />
+            desc="App developed using Flutter" pname="Pechinchou App" />
         <CarouselItem className={styles.item} href="https://www.quadrocriativo.com.br"
             src="/assets/images/carousel/quadro.png"
             desc="Website developed using Next.js" pname="Quadro Criativo Site (coming soon)" />
